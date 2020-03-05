@@ -19,3 +19,5 @@ Pushing is syncing your commits to remote storage.
 
 ### What is a Branch?
 
+Think of it as branches of a tree.The trunk of the tree is the main software called ** Master branch **. The branches are the seperate instances of the main codebase. It is like a personal copy created from the main codebase.   
+![Branches](images/branches.png)
