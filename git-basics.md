@@ -1,6 +1,7 @@
 ## What is GIT?
 Git is a commonly used decentralized source code repository. It was created by the Linux creator _Linus Torvalds_ for the management of the Linux kernel source code. 
-![what is git](images/what_is_git.png)
+
+![what](images/WhatIsGit.png)
 
 
 
@@ -51,7 +52,7 @@ $ git clone <link-to-repository>
 
 ### What is Push?
 
-Pushing is syncing your commits to remote storage.
+Pushing is syncing your local repository to remote repositories.
 ```sh
 $ git push
 ```
