@@ -13,7 +13,9 @@ The repository holds all versions of the content of the software, while the work
 Each commit creates a new child version of the content that derives from the previous, parent version that you modified.
 
 First, Git handles content in snapshots, one for each commit, and knows how to apply or roll back the change sets between two snapshots.
+
 ![GIT AREAS](images/Git.png)
+
 To start working with Git, you just need to run the “git init” command. It turns the current directory into the Git working directory and creates the repository in the .git (hidden) directory it creates there. You can then start working with Git.
 
 The **commit** command confirms the changes and makes the final changes from staging area to the repositories in working directory. With **add** command, a change in the working directory is added to the staging area for the next commit. This staging area is usually called the index.
