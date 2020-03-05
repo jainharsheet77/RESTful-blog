@@ -1,4 +1,4 @@
-![GIT AREAS](images/Git_lab_intro.png)
+![GIT AREAS](images/Git.png)
 ## GIT BASICS  
 Git is a version-control software to ease collaboration with teammates.It also makes developing a software very easy by acting as a tool to manage different versions and features of the project. 
 
