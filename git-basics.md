@@ -7,7 +7,7 @@ Git is a version-control software to ease collaboration with teammates.It also m
 ### What is a Repository?  
 
 Often called as a repo. A repository is the collection of files and folders also known as code files.
-![Repo](images/repositories.png)
+![Repo](images/repo.png)
 
 ### What is a Commit?  
 
