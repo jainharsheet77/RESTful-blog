@@ -1,7 +1,7 @@
 ##GIT BASICS  
 Git is a version-control software to ease collaboration with teammates.It also makes developing a software very easy by acting as a tool to manage different versions and features of the project. 
 
-![GIT AREAS](gitareas)
+![GIT AREAS](images/Git_lab_intro.png)
   
 ###What is a Repository?  
 
@@ -17,5 +17,3 @@ Pushing is syncing your commits to remote storage.
 
 ###What is a Branch?
 
-
-[gitareas]:images/Git_lab_intro.png
