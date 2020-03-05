@@ -16,6 +16,12 @@ First, Git handles content in snapshots, one for each commit, and knows how to a
 To start working with Git, you just need to run the “git init” command. It turns the current directory into the Git working directory and creates the repository in the .git (hidden) directory it creates there. You can then start working with Git.
 
 The **commit** command confirms the changes and makes the final changes from staging area to the repositories in working directory. With **add** command, a change in the working directory is added to the staging area for the next commit. This staging area is usually called the index.
+
+To add all files to the staging area
+```sh
+$ git add .
+```
+
 ![flow of content](images/flow_of_content.png)
 
 
@@ -30,7 +36,9 @@ To create a new repository, all you need to do is create a new project or fork a
 ### What is a Commit?  
 
 It is like saving your code.When you commit a code,it gets transferred from your local machine to a remote repository.
-
+```sh
+$ git commit
+```
 ### What is Forking?
 If you fork a repo you get an entirely new repo of that code under your own name.
 to Fork a Repo
@@ -44,6 +52,9 @@ $ git clone <link-to-repository>
 ### What is Push?
 
 Pushing is syncing your commits to remote storage.
+```sh
+$ git push
+```
 
 ### What is a Branch?
 
