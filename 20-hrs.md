@@ -19,12 +19,13 @@ The learning curve says that when one starts they are grossly incompetent. But w
 
 The period of going from **grossly incompetent** to **reasonably good** is _20 hours_. It takes only 20 hours of focused deliberate practise into the thing.
 
-![20 hours](20_hrs.png)
+![20 hours](images/20-hr-learning/20_hrs.png)
 
 
 ## Ways to learn in 20 hours
 
 In order of practise one need to follow these **4 simple steps to rapid skill acquisition**. There's a way to practise efficiently.
+
 	. Deconstruct the skill:- One needs to know exactly what is the goal and begin from the exact set of skills necessary.
 	. Learn enough to self correct:-Instead of getting many resources and procrasting the prectice.One needs to learn just enough to actually practise and **self correct**.
 	. Remove practise barriers:-Remove all the distractions, television,internet,games,etc and actually sit down and do the work.
