@@ -62,29 +62,29 @@ Docker Engine which is the core component of Docker which is responsible for the
 	```
 	docker create [options] IMAGE [commands] [arguments]
 	```
-Eg. to create  a container using fedora
-```
-$ docker create fedora
-```
+	Eg. to create  a container using fedora
+	```
+	$ docker create fedora
+	```
 
 3. Starting a container
-```
-$ docker start [options] CONTAINER ID/NAME [CONTAINER ID/NAME…]
-```
- Eg to create a container name Harsheet
-```
-$ docker start Harsheet
-```
+	```
+	$ docker start [options] CONTAINER ID/NAME [CONTAINER ID/NAME…]
+	```
+	 Eg to create a container name Harsheet
+	```
+	$ docker start Harsheet
+	```
 
 4. Stopping a container
-```
-$ docker stop [options] CONTAINER ID/NAME [CONTAINER ID/NAME…]
-```
+	```
+	$ docker stop [options] CONTAINER ID/NAME [CONTAINER ID/NAME…]
+	```
 
-Eg to stop a container named Harsheet
-```
-$ docker stop Harsheet
-```
+	Eg to stop a container named Harsheet
+	```
+	$ docker stop Harsheet
+	```
 
 ## How to create an Application?
 
