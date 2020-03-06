@@ -31,9 +31,9 @@ A **Container** is a runtime instance of an image. Multiple containers can be cr
 
 Docker Engine which is the core component of Docker which is responsible for the overall functioning of docker. It is a client-server based application and consists of 3 main components.
 
-	* A **Server** responsible for creating and managing Docker Images, Containers, Networks and Volumes on the Docker platform.  
-	* **REST API** which specifies the way to interact with the server. It stands for **“Representational State Transfer”**. It is a set of rules that developers follow when they create their API.  
-	* **Client** which is a **CLI** to allow users to interact with Docker.  
+	. A **Server** responsible for creating and managing Docker Images, Containers, Networks and Volumes on the Docker platform.  
+	. **REST API** which specifies the way to interact with the server. It stands for **“Representational State Transfer”**. It is a set of rules that developers follow when they create their API.  
+	. **Client** which is a **CLI** to allow users to interact with Docker.  
 
 ## How to create a Docker?
 1. Installing Docker
