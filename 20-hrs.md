@@ -26,9 +26,9 @@ The period of going from **grossly incompetent** to **reasonably good** is _20 h
 
 In order of practise one need to follow these **4 simple steps to rapid skill acquisition**. There's a way to practise efficiently.
 
-	. Deconstruct the skill:- One needs to know exactly what is the goal and begin from the exact set of skills necessary.
-	. Learn enough to self correct:-Instead of getting many resources and procrasting the prectice.One needs to learn just enough to actually practise and **self correct**.
-	. Remove practise barriers:-Remove all the distractions, television,internet,games,etc and actually sit down and do the work.
-	. Practise atleast 20 hours:- Get past the initial _frustration barrier_ ,the frustration of not knowing and feeling like a stupid. Actually sit down and practise for atleat 20 hours.The major barrier to learning is the fear of felling stupid.
+	- Deconstruct the skill:- One needs to know exactly what is the goal and begin from the exact set of skills necessary.
+	- Learn enough to self correct:-Instead of getting many resources and procrasting the prectice.One needs to learn just enough to actually practise and **self correct**.
+	- Remove practise barriers:-Remove all the distractions, television,internet,games,etc and actually sit down and do the work.
+	- Practise atleast 20 hours:- Get past the initial _frustration barrier_ ,the frustration of not knowing and feeling like a stupid. Actually sit down and practise for atleat 20 hours.The major barrier to learning is the fear of felling stupid.
 
 ![major barrier](images/20-hr-learning/barrier.png)
