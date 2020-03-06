@@ -1,7 +1,7 @@
 ## What is GIT?
 Git is a commonly used decentralized source code repository. It was created by the Linux creator _Linus Torvalds_ for the management of the Linux kernel source code. 
 
-![what](images/WhatIsGit.png)
+![what](images/git-basics/WhatIsGit.png)
 
 
 
@@ -14,7 +14,7 @@ Each commit creates a new child version of the content that derives from the pre
 
 First, Git handles content in snapshots, one for each commit, and knows how to apply or roll back the change sets between two snapshots.
 
-![GIT AREAS](images/Git.png)
+![GIT AREAS](images/git-basics/Git.png)
 
 To start working with Git, you just need to run the “git init” command. It turns the current directory into the Git working directory and creates the repository in the .git (hidden) directory it creates there. You can then start working with Git.
 
@@ -25,13 +25,13 @@ To add all files to the staging area
 $ git add .
 ```
 
-![flow of content](images/flow_of_content.png)
+![flow of content](images/git-basics/flow_of_content.png)
 
 
 ### What is a Repository?  
 
 Often called as a repo. A repository is the collection of files and folders also known as code files.
-![Repo](images/repo.png)
+![Repo](images/git-basics/repo.png)
 
 #### Creating a Repository:-  
 To create a new repository, all you need to do is create a new project or fork an existing project.
@@ -69,7 +69,7 @@ The concept behind branching is that each snapshot can have more than one child.
 $ git checkout master
 $ git checkout -b <your-branch-name>
 ```
-![Branches](images/branches.png)
+![Branches](images/git-basics/branches.png)
 
 
 
