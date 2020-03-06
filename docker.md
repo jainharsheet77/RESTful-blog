@@ -62,31 +62,62 @@ Docker Engine which is the core component of Docker which is responsible for the
 	```
 	docker create [options] IMAGE [commands] [arguments]
 	```
-Eg. to create  a container using fedora
-```
-$ docker create fedora
-```
+	Eg. to create  a container using fedora
+	```
+	$ docker create fedora
+	```
 
 3. Starting a container
-```
-$ docker start [options] CONTAINER ID/NAME [CONTAINER ID/NAME…]
-```
- Eg to create a container name Harsheet
-```
-$ docker start Harsheet
-```
+	```
+	$ docker start [options] CONTAINER ID/NAME [CONTAINER ID/NAME…]
+	```
+	 Eg to create a container name Harsheet
+	```
+	$ docker start Harsheet
+	```
 
 4. Stopping a container
-```
-$ docker stop [options] CONTAINER ID/NAME [CONTAINER ID/NAME…]
-```
+	```
+	$ docker stop [options] CONTAINER ID/NAME [CONTAINER ID/NAME…]
+	```
 
-Eg to stop a container named Harsheet
-```
-$ docker stop Harsheet
-```
+	Eg to stop a container named Harsheet
+	```
+	$ docker stop Harsheet
+	```
 
 ## How to create an Application?
+1. Create a directory with following two files.
+	* Dockerfile
+	* main.py
+2. Edit the python file main.py as
+	```
+	#!/usr/bin/env python3
+	print("Docker is magic!")
+	```
 
+3. Edit the dockerfile
+```
+	* A dockerfile must always start by importing the base image by using the keyword "from".
+	* Here we will import the python file created in step 1.
+	* To do that write
+		 FROM python:latest
+	*In order to launch our python code, we must import it into our image by using the keyword "copy".
+	The first parameter is 'main.py' and second parameter is '/'.Path to put the file.
+	Eg. 
+		COPY main.py /
+	* To launch we use the define a command to do same.We use "CMD" to do that.
+	Eg. CMD [ "python", "./main.py" ]
+```
 
+4. Creating a docker image
+	```
+	$ docker build -t python-test . 
+	```
+	The ’-t’ option allows you to define the name of your image.
 
+5. Run the Docker image
+	```
+	$ docker run python-test
+	```
+	You need to put the name of your image after `docker run`.
