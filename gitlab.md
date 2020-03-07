@@ -8,17 +8,40 @@ Gitlab is an open source service that provides remote access to Git repositories
 
 ### Creating a project
 
+To create a project in GitLab:
+
+1. In your dashboard, click the green New project button or use the plus icon in the navigation bar. This opens the New project page.
+2. On the New project page, choose if you want to:
+	. Create a blank project.
+	. Create a project using with one of the available project  templates.
+	. Import a project from a different repository, if enabled on your GitLab instance. Contact your GitLab admin if this is unavailable.
+	. Run CI/CD pipelines for external repositories.
+
 ![create](images/gitlab/Creating.png)
 
 ### Adding files
 
+To Add a file we can use the GUI or the terminal.
+Using GUI we can Create files or upload files by clicking or draging and dropping.
+
 ![adding](images/gitlab/adding_files.png)
 
-### Link to clone
+By Terminal
 
+![Terminal](images/gitlab/Terminal.png))images/gitlab/adding_files.png)
+
+### Link to clone
+1. Copy the link from the window. 
 ![clone](images/gitlab/cloneLink.png)
 
-### List of Repo
+2. Write the command in a terminal window of the desired directory.
+	```
+	git clone <clone link of the repository>
+	```
+	
+![cloning](images/gitlab/TerminalClone.png)
+
+### List of Projects
 
 ![list of repo](images/gitlab/ListRepo.png)
 
