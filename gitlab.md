@@ -7,7 +7,7 @@ Gitlab is an open source service that provides remote access to Git repositories
 ![first page](images/gitlab/first_page.png)
 
 ### Creating a project
-![create](images/gitlab/creating.png)
+![create](images/gitlab/Creating.png)
 
 ### Adding files
 
