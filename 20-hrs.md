@@ -28,10 +28,9 @@ In order of practise one need to follow these **4 simple steps to rapid skill ac
 
 	1. Deconstruct the skill:- One needs to know exactly what is the goal and begin from the exact set of skills necessary.
 	2. Learn enough to self correct:-Instead of getting many resources and procrasting the prectice.One needs to learn 
-									 just enough to actually practise and **self correct**.
+	   just enough to actually practise and **self correct**.
 	3. Remove practise barriers:-Remove all the distractions, television,internet,games,etc and actually sit down and do the work.
 	4. Practise atleast 20 hours:- Get past the initial _frustration barrier_ ,the frustration of not knowing and feeling like a 
-								   stupid. Actually sit down and practise for atleat 20 hours.The major barrier to learning is the
-								   fear of felling stupid.
+	   stupid. Actually sit down and practise for atleat 20 hours.The major barrier to learning is the fear of felling stupid.
 
 ![major barrier](images/20-hr-learning/barrier.png)
