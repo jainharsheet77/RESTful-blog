@@ -1,0 +1,9 @@
+### Whats is an IIOT Gateway?
+
+An IoT Gateway is a solution for enabling IoT communication, usually device -to-device communications or device-to-cloud communications. The gateway is typically a hardware device housing application software that performs essential tasks. At its most basic level, the gateway facilitates the connections between different data sources and destinations.
+
+A simple way to conceive of an IoT Gateway is to compare it to your home or office network router or gateway. Such a gateway facilitates communication between your devices, maintains security and provides an admin interface where you can perform basic functions. An IoT Gateway does this and much more.
+
+![IIOT Gateways](https://openautomationsoftware.com/wp-content/uploads/2017/05/What-is-an-IoT-Gateway.png)
+
+
