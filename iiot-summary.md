@@ -1,4 +1,4 @@
-### Whats is an IIOT [Gateway](https://www.youtube.com/watch?v=OggTrr94Xaw&feature=youtu.be)?
+### Whats is an [IIOT Gateway](https://www.youtube.com/watch?v=OggTrr94Xaw&feature=youtu.be)?
 
 #### IIoT is the Industrial Internet of Things.
 
@@ -21,8 +21,6 @@ PLC ,Sensors, various devices and objects collect huge amounts of data.The colle
 >optimization. Along with this, a digitally connected unit will establish a better line of commands and help identify key result areas (KRAs) 
 >for managers.
 
-Read More: [5 Ways to Leverage Big Data in Manufacturing](https://www.newgenapps.com/blog/impact-of-big-data-in-manufacturing-industries)
-
 >#### 2. Facility management:
 >The use of IoT sensors in manufacturing equipment enables condition-based maintenance alerts. There are many critical machine tools that are 
 >designed to function within certain temperature and vibration ranges. IoT Sensors can actively monitor machines and send an alert when the 
@@ -35,6 +33,15 @@ Read More: [5 Ways to Leverage Big Data in Manufacturing](https://www.newgenapps
 >operational cost. Moreover, the close monitoring highlights lags in production thus eliminating wastes and unnecessary work in progress 
 >inventory.
 
+![](https://zdnet1.cbsistatic.com/hub/i/r/2019/02/14/a4a73d3f-041f-4fb2-89b8-a3778ccc692d/resize/470xauto/b73260bb3649b21d341e85b1ce5ac9a9/worcester-bosch-1.png)
+
+>#### 4. Inventory management:
+>IoT applications permit the monitoring of events across a supply chain. Using these systems, the inventory is tracked and traced globally on a 
+>line-item level and the users are notified of any significant deviations from the plans. This provides cross-channel visibility into 
+>inventories and managers are provided with realistic estimates of the available material, work in progress and estimated the arrival time of 
+>new materials. Ultimately this optimizes supply and reduces shared costs in the value chain.
+
+
 ![](http://www.statista.com/graphic/1/666864/iot-spending-by-vertical-worldwide.jpg)
 
 Manufacturers and industrialists in every sector have a significant opportunity at hand where they can not only monitor but also automate many of complex process involved in manufacturing. While there have been systems which can track progress in the plant but the industrial IoT (IIoT) technology provides far more intricate details to the managers.
@@ -45,5 +52,23 @@ Manufacturers and industrialists in every sector have a significant opportunity 
 ### The State of Industrial Internet of Things:
 
 ![](https://www.newgenapps.com/hs-fs/hubfs/IoT-1.png?width=600&name=IoT-1.png)
+
+Right now, the IIoT is of particular interest to the manufacturing, retail, utilities and transport industries. IIoT projects can give manufacturers a better idea of how their production lines are operating, and to make better predictions about when particular machines will need servicing, which will reduce unexpected downtime. Utilities can use the IIoT to cut down on the cost of sending staff to check on remote installations by making them self-monitoring. Retailers can understand where the bottlenecks are in their supply chain, and transport companies can better understand the performance of their vehicle fleets. But these aren't the only interested sectors: health care and government are also likely to be big IIoT adopters. And while the moment it's mostly being explored by larger organisations, it may become more widely adopted as the price of hardware and services comes down .
+
+#### What business needs can be solved with the Industrial Internet of Things? Why is the Industrial Internet of Things so important?
+
+
+he IIoT is important because of its potential to enable faster and better decision making. The change that the IIoT can bring is also closely related to the digital transformation projects that many businesses are working on.
+
+By providing extremely detailed data in real time, the IIoT can help companies understand their business processes better and, by analysing the data coming from sensors, can make their processes more efficient and even open up new revenue streams. The IIoT can also give them an insight into the broader supply chain, which will allow businesses to coordinate and create further efficiencies.
+
+#### What are current and future use cases for the Industrial Internet of Things?
+![](https://zdnet4.cbsistatic.com/hub/i/r/2019/02/14/894c43f8-f28f-45ed-89c0-90cc5d361c0f/resize/270xauto/06aada5727ffdc6605bda8493777e9f1/rollsroyceswarmrobot.jpg)
+
+Rolls-Royce is a good example of both current and tomorrow's use cases for IIoT. The engine maker receives more than 70 trillion data points from engines in service with its customers. While the original service model was based around the repairing broken engines, it can now use that data to manage and schedule engine repair, for example combining that data with machine learning analytics to alert engineers to potential problems before they would otherwise be noticed.
+
+The company also has some futuristic ideas -- like using swarms of miniature robots just 10mm in diameter that crawl through engines carrying tiny cameras, allowing engineers to carry out a visual inspection of the engine without having to remove it from the aircraft. Another idea is for remotely controlled robots to carry out specialist repairs, which would reduce the need for engineering teams to travel to an aircraft's location, resulting in a quicker return to service.
+
+
 
 
