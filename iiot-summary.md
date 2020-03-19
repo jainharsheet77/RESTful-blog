@@ -158,7 +158,7 @@ Hioki benchtop power meters and power analyzers are best in class power measurin
 
 Key Features
 * Exclusive current sensor phase shift function lets you maintain accuracy even in high frequency, low power factor applications
-* Basic accuracy of ±0.02%*1 for power measurement
+* Basic accuracy of ±0.02% for power measurement.
 * High noise resistance and stability (80 dB/100 kHz CMRR, ±0.01%/°C temperature characteristics)
 * Accurate measurement even when the load is characterized by large fluctuations; TrueHD 18-bit resolution
 * 10 ms data refresh while maintaining maximum accuracy (using a specially designed IC to make all measurements independently while performing 
@@ -166,7 +166,7 @@ Key Features
 * DC accuracy of ±0.07%, which is key for stable, accurate efficiency measurement
 * Wide frequency bandwidth of DC, or 0.1 Hz to 2 MHz
 * Achieve true frequency analysis with high-speed 5MS/s sampling (18 bit)
-* Synchronize 2 units for up to 12 channels*2 in real time
+* Synchronize 2 units for up to 12 channels in real time
 * Special triggers to enable waveform analysis and motor analysis without the need for an oscilloscope
 * Wideband harmonic analysis up to the 100th order with a 1.5 MHz band
 * Send measured values to HIOKI data loggers using a Bluetooth® wireless technology compatible adapter (LR8410 Link-compatible products), Ver. 
