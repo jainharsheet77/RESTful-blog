@@ -66,6 +66,7 @@ Gateways can communicate with sensors/devices over varying connectivity types an
 #### Few IIoT Gateway devices-
 
 ##### [MGate 5118 Series](https://www.moxa.com/getmedia/7914e681-d723-40b8-8cc7-0701e4588458/moxa-mgate-5118-series-datasheet-v1.0.pdf)
+![](https://www.moxa.com/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/Protocol-Gateways/Modbus-TCP-Gateways/MGate-5118-Series/moxa-mgate-5118-series-image-2-(2).jpg)
 The MGate 5118 industrial protocol gateways support the SAE J1939 protocol, which is based on CAN bus (Controller Area Network). SAE J1939 is used to implement communication and diagnostics among vehicle components, diesel engine generators, and compression engines, and is suitable for the heavy-duty truck industry and backup power systems. It is now common to use an engine control unit (ECU) to control these kinds of devices, and more and more applications are using PLCs for process automation to monitor the status of J1939 devices connected behind the ECU.
 
 The MGate 5118 gateways support the conversion of J1939 data to Modbus RTU/ASCII/TCP, EtherNet/IP, or PROFINET protocols to support most PLC applications. Devices that support the J1939 protocol can be monitored and controlled by PLCs and SCADA systems that use the Modbus RTU/ASCII/TCP, EtherNet/IP, and PROFINET protocols. With the MGate 5118, you can use the same gateway in a variety of PLC environments.
@@ -87,7 +88,7 @@ The MGate 5118 gateways support the conversion of J1939 data to Modbus RTU/ASCII
  * Security features based on IEC 62443
 
 ##### [UC-8112-LX](https://www.moxa.com/getmedia/20c0a307-5959-4ea1-9d7d-5725e56ca0a0/moxa-uc-8100-series-datasheet-v1.5.pdf)
-
+![](https://devicebase.net/products/765/teaser-lg.jpg)
 The UC-8100 computing platform is designed for embedded data-acquisition applications. The computer comes with one or two RS-232/422/485
 serial ports and dual 10/100 Mbps Ethernet LAN ports, as well as a mini PCIe slot to support cellular modules. These versatile communication
 capabilities let users efficiently adapt the UC-8100 to a variety of complex communications solutions.
@@ -108,4 +109,14 @@ We need a gateway to provide:-
 * local pre-processed filtering and aggregation of data
 * local additional processing power and storage
 * local security
+
+
+
+
+
+#### Power Quality Loggers/Analyser
+
+A power quality anayzer is used to measure electric power signals to determine the load's ability to function properly with that electric power. Without the correct electric power, electrical equipment may fail prematurely or malfunction. There are many different different factors that contribute to poor quality power.
+
+Power quality analyzers, such as any Fluke Series meter, track several electrical parameters, which include AC voltage, AC current power, and frequency. Electrical data parameters include demand and peak demand. Electrical demand is the actual amount of power that the monitored system uses. Peak electrical demand is the maximum amount of electric power that can be used. Typically, power parameters are measured in watts (W), volt amperes (VA), and volt ampere reactives (VAR). Watts are units of electrical power that indicate the rate of energy produced or consumed by an electrical device. Volt amperes equal the current flowing in a circuit multiplied by the voltage of that circuit. Volt ampere reactives identify the reactive component of volt amperes.
 
