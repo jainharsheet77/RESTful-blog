@@ -156,7 +156,7 @@ Key Features
 
 ### Conclusion
 
-####We need a gateway to provide:-
+#### We need a gateway to provide:-
 
 * communication to the cloud and the IoT platforms
  specific applications / functions not delivered by the IoT Things endpoints
