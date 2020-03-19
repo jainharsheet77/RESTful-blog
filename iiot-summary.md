@@ -7,11 +7,18 @@
 An IoT Gateway is a solution for enabling IoT communication, usually device -to-device communications or device-to-cloud communications. The gateway is typically a hardware device housing application software that performs essential tasks. At its most basic level, the gateway facilitates the connections between different data sources and destinations.
 
 A simple way to conceive of an IoT Gateway is to compare it to your home or office network router or gateway. Such a gateway facilitates communication between your devices, maintains security and provides an admin interface where you can perform basic functions. An IoT Gateway does this and much more.
+
+In an increasingly complex IoT reality with more large scale IoT projects, loads of IoT communication protocols, industrial and IoT standards and many types of sensors and sensor data sitting a bit everywhere (all depending on the scope on the project) a device was and is needed to:
+
+* bridge it all and enable those various things and sensors and data to ‘talk’ with each other (despite speaking a different language) and
+* making some sense of it all before sending all this data somewhere else where it really – ideally – leads to real sense, actionable insights 
+   and actions in whatever shape.
+
 PLC ,Sensors, various devices and objects collect huge amounts of data.The collected data is sent to a central Cloud-based service where it is aggregated with other data and then shared with end users in a helpful way with the help of IIOT Gateways.IIOT Gateways of many companies such as Moxa, Adlink, Huawei, Cisco, Anybus etc are available.
 
 
 
-### Benefits of IIOT Gateways
+### Benefits of IIOT
 
 ![](https://www.newgenapps.com/hs-fs/hubfs/microsoft-internet-of-things-5-1024.jpg?width=710&name=microsoft-internet-of-things-5-1024.jpg)
 
@@ -41,34 +48,25 @@ PLC ,Sensors, various devices and objects collect huge amounts of data.The colle
 >inventories and managers are provided with realistic estimates of the available material, work in progress and estimated the arrival time of 
 >new materials. Ultimately this optimizes supply and reduces shared costs in the value chain.
 
-
 ![](http://www.statista.com/graphic/1/666864/iot-spending-by-vertical-worldwide.jpg)
 
 Manufacturers and industrialists in every sector have a significant opportunity at hand where they can not only monitor but also automate many of complex process involved in manufacturing. While there have been systems which can track progress in the plant but the industrial IoT (IIoT) technology provides far more intricate details to the managers.
 
 >According to a research by Business Insider, global manufacturers will invest $70 billion in IoT solutions in 2020. That's up from $29 billion >from 2015.
 
-
-### The State of Industrial Internet of Things:
-
-![](https://www.newgenapps.com/hs-fs/hubfs/IoT-1.png?width=600&name=IoT-1.png)
-
-Right now, the IIoT is of particular interest to the manufacturing, retail, utilities and transport industries. IIoT projects can give manufacturers a better idea of how their production lines are operating, and to make better predictions about when particular machines will need servicing, which will reduce unexpected downtime. Utilities can use the IIoT to cut down on the cost of sending staff to check on remote installations by making them self-monitoring. Retailers can understand where the bottlenecks are in their supply chain, and transport companies can better understand the performance of their vehicle fleets. But these aren't the only interested sectors: health care and government are also likely to be big IIoT adopters. And while the moment it's mostly being explored by larger organisations, it may become more widely adopted as the price of hardware and services comes down .
-
-#### What business needs can be solved with the Industrial Internet of Things? Why is the Industrial Internet of Things so important?
-
-
-he IIoT is important because of its potential to enable faster and better decision making. The change that the IIoT can bring is also closely related to the digital transformation projects that many businesses are working on.
-
-By providing extremely detailed data in real time, the IIoT can help companies understand their business processes better and, by analysing the data coming from sensors, can make their processes more efficient and even open up new revenue streams. The IIoT can also give them an insight into the broader supply chain, which will allow businesses to coordinate and create further efficiencies.
-
-#### What are current and future use cases for the Industrial Internet of Things?
-![](https://zdnet4.cbsistatic.com/hub/i/r/2019/02/14/894c43f8-f28f-45ed-89c0-90cc5d361c0f/resize/270xauto/06aada5727ffdc6605bda8493777e9f1/rollsroyceswarmrobot.jpg)
-
-Rolls-Royce is a good example of both current and tomorrow's use cases for IIoT. The engine maker receives more than 70 trillion data points from engines in service with its customers. While the original service model was based around the repairing broken engines, it can now use that data to manage and schedule engine repair, for example combining that data with machine learning analytics to alert engineers to potential problems before they would otherwise be noticed.
-
-The company also has some futuristic ideas -- like using swarms of miniature robots just 10mm in diameter that crawl through engines carrying tiny cameras, allowing engineers to carry out a visual inspection of the engine without having to remove it from the aircraft. Another idea is for remotely controlled robots to carry out specialist repairs, which would reduce the need for engineering teams to travel to an aircraft's location, resulting in a quicker return to service.
+#### Why are IoT gateways used?
 
 
 
+## Conclusion
+We need a gateway to provide:-
+
+* communication to the cloud and the IoT platforms
+ specific applications / functions not delivered by the IoT Things endpoints
+* protocol conversion
+* local decision making
+* local management and accessibility for users
+* local pre-processed filtering and aggregation of data
+* local additional processing power and storage
+* local security
 
