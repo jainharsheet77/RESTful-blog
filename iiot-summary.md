@@ -96,22 +96,6 @@ applicable to a variety of industrial solutions. With flexible interfacing optio
 
 
 
-### Conclusion
-We need a gateway to provide:-
-
-* communication to the cloud and the IoT platforms
- specific applications / functions not delivered by the IoT Things endpoints
-* protocol conversion
-* local decision making
-* local management and accessibility for users
-* local pre-processed filtering and aggregation of data
-* local additional processing power and storage
-* local security
-
-I learned about what is IIOT Gateways and what are its uses. I also learned how they are usefull and which brands provide good products.
-
-
-
 ## Power Quality Loggers/Analyser
 
 A power quality anayzer is used to measure electric power signals to determine the load's ability to function properly with that electric power. Without the correct electric power, electrical equipment may fail prematurely or malfunction. There are many different different factors that contribute to poor quality power.
@@ -168,3 +152,27 @@ Key Features
 * Send measured values to HIOKI data loggers using a Bluetooth® wireless technology compatible adapter (LR8410 Link-compatible products), Ver. 
   2.0 and later.
 
+
+
+### Conclusion
+
+####We need a gateway to provide:-
+
+* communication to the cloud and the IoT platforms
+ specific applications / functions not delivered by the IoT Things endpoints
+* protocol conversion
+* local decision making
+* local management and accessibility for users
+* local pre-processed filtering and aggregation of data
+* local additional processing power and storage
+* local security
+
+#### Power Quality Analyzers:-
+
+There are a number of different Power Quality Analyzer manufacturers such as Fluke, AEMC, Hioki and Extech. Some analyzers are designed to measure single phase systems while others are for three phase systems. Many PQAs integrate with PCs, have enhanced data logging capabilities and can produce professional reports typically requested for power quality applications. Power Quality Analyzers range in price from $1500 to $6500 with the more expensive products offering greater analysis functionality.
+
+I learned about what is IIOT Gateways and what are its uses. I also learned how they are usefull and which brands provide good products.
+I learned various protocols which are ued to communicate to devices and to the cloud.How is communication established.
+
+I also learned about what are power loggers and how do they work.I came to know about various brands making some excellent analyzers.What parameters they measure anbd upto what accuracy.
+It was an educating excerscise.
