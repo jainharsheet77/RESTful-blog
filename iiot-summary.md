@@ -2,17 +2,12 @@
 
 #### IIoT is the Industrial Internet of Things.
 
+![IIOT Gateways](https://openautomationsoftware.com/wp-content/uploads/2017/05/What-is-an-IoT-Gateway.png)
+
 An IoT Gateway is a solution for enabling IoT communication, usually device -to-device communications or device-to-cloud communications. The gateway is typically a hardware device housing application software that performs essential tasks. At its most basic level, the gateway facilitates the connections between different data sources and destinations.
 
 A simple way to conceive of an IoT Gateway is to compare it to your home or office network router or gateway. Such a gateway facilitates communication between your devices, maintains security and provides an admin interface where you can perform basic functions. An IoT Gateway does this and much more.
-
-* PLC ,Sensors, various devices and objects collect huge amounts of data.
-* The collected data is sent to a central Cloud-based service where it is aggregated with other data and then shared with end users in a 
-  helpful way with the help of IIOT Gateways.
-* IIOT Gateways of many companies such as Moxa, Adlink, Huawei, Cisco, Anybus etc are available.
-
-
-![IIOT Gateways](https://openautomationsoftware.com/wp-content/uploads/2017/05/What-is-an-IoT-Gateway.png)
+PLC ,Sensors, various devices and objects collect huge amounts of data.The collected data is sent to a central Cloud-based service where it is aggregated with other data and then shared with end users in a helpful way with the help of IIOT Gateways.IIOT Gateways of many companies such as Moxa, Adlink, Huawei, Cisco, Anybus etc are available.
 
 
 
