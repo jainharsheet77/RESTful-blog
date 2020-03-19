@@ -111,6 +111,7 @@ We need a gateway to provide:-
 * local pre-processed filtering and aggregation of data
 * local additional processing power and storage
 * local security
+
 I learned about what is IIOT Gateways and what are its uses. I also learned how they are usefull and which brands provide good products.
 
 
@@ -121,7 +122,7 @@ A power quality anayzer is used to measure electric power signals to determine t
 
 Power quality analyzers, such as any Fluke Series meter, track several electrical parameters, which include AC voltage, AC current power, and frequency. Electrical data parameters include demand and peak demand. Electrical demand is the actual amount of power that the monitored system uses. Peak electrical demand is the maximum amount of electric power that can be used. Typically, power parameters are measured in watts (W), volt amperes (VA), and volt ampere reactives (VAR). Watts are units of electrical power that indicate the rate of energy produced or consumed by an electrical device. Volt amperes equal the current flowing in a circuit multiplied by the voltage of that circuit. Volt ampere reactives identify the reactive component of volt amperes.
 
-### Use of Power Wuality Loggers/Analysers
+### Use of Power Quality Loggers/Analysers
 
 * A power quality anayzer is used to measure electric power signals to determine the load's ability to function properly with that electric 
   power.
@@ -132,7 +133,7 @@ Power quality analyzers, such as any Fluke Series meter, track several electrica
 * Power analyzers can be used to measure the flow of energy in either alternating current (AC) or direct current (DC) systems – with distinct 
   considerations for measuring AC circuits.
 
-#### Few Power Quality loggers
+### Few Power Quality loggers
 
 ##### [HIOKI POWER QUALITY ANALYZER PQ3198](https://www.hioki.com/en/products/detail/?product_key=6503)
 ![](https://www.hioki.com/image/client_upload_11_1553659569803.png)
@@ -140,34 +141,34 @@ Hioki portable power meters and analyzers are best in class power measuring inst
 
 Key features:-
 
-• Verify power problems in accordance with the IEC61000-4-30 Class A standard
-• High accuracy and continuous gapless recording
+* Verify power problems in accordance with the IEC61000-4-30 Class A standard
+* High accuracy and continuous gapless recording
 	(V: ±0.1% of nominal voltage, A: ±0.1% rdg. ±0.1% f.s., W: ±0.2% rdg. ±0.1% f.s.)
-• Broadband voltage range lets you measure even high-order harmonic components of up to 80 kHz
-• Maximum 6000 V peak transient voltage up to 700 kHz
-• Measure up to 6000 A AC
-• Two systems of power measurement and efficiency calculation for (ch 1, ch 2, ch 3) and ch 4
-• Make simple measurements of inverters with 40 to 70 Hz fundamental frequency and max. 20 kHz carrier frequency
-• Easily create reports with bundled PQ ONE application software 
-• Optional GPS BOX for synchronizing multiple devices
+* Broadband voltage range lets you measure even high-order harmonic components of up to 80 kHz
+* Maximum 6000 V peak transient voltage up to 700 kHz
+* Measure up to 6000 A AC
+* Two systems of power measurement and efficiency calculation for (ch 1, ch 2, ch 3) and ch 4
+* Make simple measurements of inverters with 40 to 70 Hz fundamental frequency and max. 20 kHz carrier frequency
+* Easily create reports with bundled PQ ONE application software 
+* Optional GPS BOX for synchronizing multiple devices
 
 ##### [POWER ANALYZER PW6001](https://www.hioki.com/en/products/detail/?product_key=5796)
 ![](https://www.hioki.com/image/client_upload_11_1444818925862.png)
 Hioki benchtop power meters and power analyzers are best in class power measuring instruments for measuring single to three-phase lines with a high degree of precision and accuracy. The PW6001 is Hioki’s flagship power analyzer, featuring high accuracy, wide band, and high stability for measuring electrical power from DC to inverter frequencies, providing maximum of 12 channels to support single- and three-phase inverter motor system measurements and next generation devices such as silicon-carbide (SiC) inverters.
 
 Key Features
-• Exclusive current sensor phase shift function lets you maintain accuracy even in high frequency, low power factor applications
-• Basic accuracy of ±0.02%*1 for power measurement
-• High noise resistance and stability (80 dB/100 kHz CMRR, ±0.01%/°C temperature characteristics)
-• Accurate measurement even when the load is characterized by large fluctuations; TrueHD 18-bit resolution
-• 10 ms data refresh while maintaining maximum accuracy (using a specially designed IC to make all measurements independently while performing 
+* Exclusive current sensor phase shift function lets you maintain accuracy even in high frequency, low power factor applications
+* Basic accuracy of ±0.02%*1 for power measurement
+* High noise resistance and stability (80 dB/100 kHz CMRR, ±0.01%/°C temperature characteristics)
+* Accurate measurement even when the load is characterized by large fluctuations; TrueHD 18-bit resolution
+* 10 ms data refresh while maintaining maximum accuracy (using a specially designed IC to make all measurements independently while performing 
   simultaneous calculations.)
-• DC accuracy of ±0.07%, which is key for stable, accurate efficiency measurement
-• Wide frequency bandwidth of DC, or 0.1 Hz to 2 MHz
-• Achieve true frequency analysis with high-speed 5MS/s sampling (18 bit)
-• Synchronize 2 units for up to 12 channels*2 in real time
-• Special triggers to enable waveform analysis and motor analysis without the need for an oscilloscope
-• Wideband harmonic analysis up to the 100th order with a 1.5 MHz band
-• Send measured values to HIOKI data loggers using a Bluetooth® wireless technology compatible adapter (LR8410 Link-compatible products), Ver. 
+* DC accuracy of ±0.07%, which is key for stable, accurate efficiency measurement
+* Wide frequency bandwidth of DC, or 0.1 Hz to 2 MHz
+* Achieve true frequency analysis with high-speed 5MS/s sampling (18 bit)
+* Synchronize 2 units for up to 12 channels*2 in real time
+* Special triggers to enable waveform analysis and motor analysis without the need for an oscilloscope
+* Wideband harmonic analysis up to the 100th order with a 1.5 MHz band
+* Send measured values to HIOKI data loggers using a Bluetooth® wireless technology compatible adapter (LR8410 Link-compatible products), Ver. 
   2.0 and later.
 
