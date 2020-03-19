@@ -56,6 +56,51 @@ Manufacturers and industrialists in every sector have a significant opportunity 
 
 #### Why are IoT gateways used?
 
+##### Battery life
+If a sensor/device is in a remote area, it may need a long-range connection such as satellite connectivity to talk to the cloud.
+If you’re doing Smart Agriculture, you want your field sensors to last years, not months or weeks. By using an elevated gateway installed near the top of an outbuilding or grain silo, the sensors/devices only have to send data a short distance to the gateway and the gateway can backhaul the data to the cloud through a single higher bandwidth connection.
+
+##### Varying protocols
+
+A complete IoT application might involve many different kinds of sensors and devices. Using Smart Agriculture again, you might want sensors for temperature, moisture, and sunlight and devices such as automated irrigation and fertilizer systems.
+
+All of the different sensors and devices can use varying network connectivity types (basically, the rules and format for the information being transmitted). Connectivity types include LPWAN, Wi-Fi, Bluetooth, and Zigbee, among many others.
+
+Gateways can communicate with sensors/devices over varying connectivity types and then translate that data into a standard protocol such as MQTT to be sent to the cloud.
+
+
+#### Few IIoT Gateway devices-
+
+##### [MGate 5118 Series](https://www.moxa.com/getmedia/7914e681-d723-40b8-8cc7-0701e4588458/moxa-mgate-5118-series-datasheet-v1.0.pdf)
+The MGate 5118 industrial protocol gateways support the SAE J1939 protocol, which is based on CAN bus (Controller Area Network). SAE J1939 is used to implement communication and diagnostics among vehicle components, diesel engine generators, and compression engines, and is suitable for the heavy-duty truck industry and backup power systems. It is now common to use an engine control unit (ECU) to control these kinds of devices, and more and more applications are using PLCs for process automation to monitor the status of J1939 devices connected behind the ECU.
+
+The MGate 5118 gateways support the conversion of J1939 data to Modbus RTU/ASCII/TCP, EtherNet/IP, or PROFINET protocols to support most PLC applications. Devices that support the J1939 protocol can be monitored and controlled by PLCs and SCADA systems that use the Modbus RTU/ASCII/TCP, EtherNet/IP, and PROFINET protocols. With the MGate 5118, you can use the same gateway in a variety of PLC environments.
+
+##### Features and Benefits
+
+ * Converts J1939 to Modbus, PROFINET, or EtherNet/IP
+ * Supports Modbus RTU/ASCII/TCP master/client and slave/server
+ * Supports EtherNet/IP Adapter
+ * Supports PROFINET IO device
+ * Supports J1939 protocol
+ * Effortless configuration via web-based wizard
+ * Built-in Ethernet cascading for easy wiring
+ * Embedded traffic monitoring/diagnostic information for easy troubleshooting
+ * microSD card for configuration backup/duplication and event logs
+ * Status monitoring and fault protection for easy maintenance
+ * CAN bus and serial port with 2 kV isolation protection
+ * -40 to 75°C wide operating temperature models available
+ * Security features based on IEC 62443
+
+##### [UC-8112-LX](https://www.moxa.com/getmedia/20c0a307-5959-4ea1-9d7d-5725e56ca0a0/moxa-uc-8100-series-datasheet-v1.5.pdf)
+
+The UC-8100 computing platform is designed for embedded data-acquisition applications. The computer comes with one or two RS-232/422/485
+serial ports and dual 10/100 Mbps Ethernet LAN ports, as well as a mini PCIe slot to support cellular modules. These versatile communication
+capabilities let users efficiently adapt the UC-8100 to a variety of complex communications solutions.
+The UC-8100 is built around a Cortex-A8 Arm–based processor that has been optimized for use in energy monitoring systems, but is widely
+applicable to a variety of industrial solutions. With flexible interfacing options, this tiny embedded computer is a reliable and secure gateway for data acquisition and processing at field sites as well as a useful communication platform for many other large-scale deployments.
+
+
 
 
 ## Conclusion
