@@ -40,19 +40,15 @@ PLC ,Sensors, various devices and objects collect huge amounts of data.The colle
 >operational cost. Moreover, the close monitoring highlights lags in production thus eliminating wastes and unnecessary work in progress 
 >inventory.
 
-![](https://zdnet1.cbsistatic.com/hub/i/r/2019/02/14/a4a73d3f-041f-4fb2-89b8-a3778ccc692d/resize/470xauto/b73260bb3649b21d341e85b1ce5ac9a9/worcester-bosch-1.png)
-
 >#### 4. Inventory management:
 >IoT applications permit the monitoring of events across a supply chain. Using these systems, the inventory is tracked and traced globally on a 
 >line-item level and the users are notified of any significant deviations from the plans. This provides cross-channel visibility into 
 >inventories and managers are provided with realistic estimates of the available material, work in progress and estimated the arrival time of 
 >new materials. Ultimately this optimizes supply and reduces shared costs in the value chain.
 
-![](http://www.statista.com/graphic/1/666864/iot-spending-by-vertical-worldwide.jpg)
 
-Manufacturers and industrialists in every sector have a significant opportunity at hand where they can not only monitor but also automate many of complex process involved in manufacturing. While there have been systems which can track progress in the plant but the industrial IoT (IIoT) technology provides far more intricate details to the managers.
+![](https://zdnet1.cbsistatic.com/hub/i/r/2019/02/14/a4a73d3f-041f-4fb2-89b8-a3778ccc692d/resize/470xauto/b73260bb3649b21d341e85b1ce5ac9a9/worcester-bosch-1.png)
 
->According to a research by Business Insider, global manufacturers will invest $70 billion in IoT solutions in 2020. That's up from $29 billion >from 2015.
 
 #### Why are IoT gateways used?
 
