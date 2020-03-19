@@ -56,12 +56,6 @@ Manufacturers and industrialists in every sector have a significant opportunity 
 
 #### Why are IoT gateways used?
 
-##### Battery life
-If a sensor/device is in a remote area, it may need a long-range connection such as satellite connectivity to talk to the cloud.
-If you’re doing Smart Agriculture, you want your field sensors to last years, not months or weeks. By using an elevated gateway installed near the top of an outbuilding or grain silo, the sensors/devices only have to send data a short distance to the gateway and the gateway can backhaul the data to the cloud through a single higher bandwidth connection.
-
-##### Varying protocols
-
 A complete IoT application might involve many different kinds of sensors and devices. Using Smart Agriculture again, you might want sensors for temperature, moisture, and sunlight and devices such as automated irrigation and fertilizer systems.
 
 All of the different sensors and devices can use varying network connectivity types (basically, the rules and format for the information being transmitted). Connectivity types include LPWAN, Wi-Fi, Bluetooth, and Zigbee, among many others.
