@@ -15,4 +15,8 @@ An actuator is a device that converts a control signal into some kind of movemen
 <img src="https://i.ytimg.com/vi/penLo7CNeQE/maxresdefault.jpg" width="600" height="400"/>
 
 
+### 2. Analog and digital
+
+<img src="https://media.cheggcdn.com/study/870/8701e007-8704-4de7-8e43-88799d198442/10298-5.E-6LOC-i1.png" width="600" height="400" />
+
 
