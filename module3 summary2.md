@@ -9,6 +9,7 @@ As an input port, it can be used to compare digital readings received from senso
 As an output port, it can be used as a switch to turn ON/OFF devices.
 
 <img src="https://www.electronicwings.com/public/images/user_images/images/Raspberry%20Pi/RaspberryPi_GPIO/Raspberry%20pi%203%20GPIO_pins_v2.png" width="500" height="300"/>
+
 ##### GPIO pins in Raspberrypi.
 
 ### 2. UART
