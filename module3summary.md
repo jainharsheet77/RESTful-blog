@@ -1,6 +1,3 @@
-## Microprocessor Interfaces
+## Basic Concepts for Embedded
 
-
-### 1. Basic Electornics for Embedded
-
-#### 1.
+### 1.Sensors and Actuators
