@@ -21,4 +21,6 @@ An actuator is a device that converts a control signal into some kind of movemen
 <img src="https://image1.slideserve.com/3034422/analog-vs-digital-n.jpg" width="600" height="400" />
 
 
+### Mictroprocessor and Microcontroller
 
+<img src="https://image.slidesharecdn.com/microprocessorvs-140822083920-phpapp02/95/microprocessor-vs-microcontroller-2-638.jpg?cb=1408709859"/>
