@@ -56,8 +56,12 @@ Interfaces are ways to connect a sensor to a microprocessor.Raspberry Pi interfa
 #### What is Serial communication?
 <img src="https://circuitglobe.com/wp-content/uploads/2019/07/serial-communication.jpg" />
 
+In Serial Transmission, data is sent bit by bit from one computer to another in bi-direction where each bit has its clock pulse rate. Eight bits are transferred at a time having a start and stop bit (usually known as a Parity bit), i.e. 0 and 1 respectively.
+
 #### What is Parallel communication?
 <img src="https://circuitglobe.com/wp-content/uploads/2019/07/parallel-communication.jpg"/>
+
+In Parallel Transmission, various bits are sent together simultaneously with a single clock pulse. It is a fast way to transmit as it uses many input/output lines for transferring the data.
 
 #### Difference between Series and Parallel.
 <img src="https://image.slidesharecdn.com/4lecture4serialparalleltransmission-170823060418/95/data-communication-computer-networks-serial-and-parellel-transmission-23-638.jpg?cb=1503720848" width="600" height="400"/>
