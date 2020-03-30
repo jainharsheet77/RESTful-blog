@@ -60,3 +60,15 @@ Four main lines:-
 |---------------------------------|---------------------------|
 |<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/76f6e0eb9cedc83d295851ac4427e13c/Introduction-to-SPI-Multiple-Slave-Configuration-Separate-Slave-Select-768x787.png" width="400" height="400"/>|<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/7d211cac4f6a8f7666dff31a5323dfaf/Introduction-to-SPI-Multiple-Slave-Configuration-Daisy-Chained-768x781.png" width="400" height="400"/>|
 
+#### Steps
+1. The master outputs the clock signal.
+2. The master switches the SS/CS pin to a low voltage state, which activates the slave.
+3. The master sends the data one bit at a time to the slave along the MOSI line. The slave reads the bits as they are received.
+4. If a response is needed, the slave returns data one bit at a time to the master along the MISO line. The master reads the bits as they are received.
+
+|Advantage                              | Disadvantage                      |
+|---------------------------------------|-----------------------------------|
+|No start and stop bits, so the data can be streamed continuously without interruption|Uses four wires (I2C and UARTs use two).|
+|No complicated slave addressing system like I2C.|No acknowledgement that the data has been successfully received (I2C has this).|
+|Higher data transfer rate than I2C (almost twice as fast).|No form of error checking like the parity bit in UART.|
+|Separate MISO and MOSI lines, so data can be sent and received at the same time.|Only allows for a single master.|
