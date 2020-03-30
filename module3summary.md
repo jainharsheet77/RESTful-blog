@@ -29,10 +29,9 @@ An actuator is a device that converts a control signal into some kind of movemen
 <img src="https://aast.roben.me/wp-content/uploads/2014/10/comp.jpg" width="600" height="600"/>
 
 
-### Introduction to Rpi
+### 3. Introduction to Rpi
 <img  src="https://www.electronicwings.com/public/images/user_images/images/Raspberry%20Pi/Raspberry%20Pi%20Introduction/Raspberry%20Pi%203%20hardware.png" width="700" height="400"/>
 Raspberry Pi as a world’s most inexpensive and powerful Single Board Computer.It is
-
 * Mini Computer
 * Limited but large power for its size
 * No storage
@@ -43,7 +42,7 @@ Raspberry Pi as a world’s most inexpensive and powerful Single Board Computer.
 * Can load a linux OS on it
 * Connect to sensors or actuators.
 
-Interfaces are ways to connect a sensor to a microprocessor.Raspberry Pi interfaces are-
+Interfaces are ways to connect a sensor to a microprocessor.Raspberry Pi interfaces are
 
 * GPIO
 * UART
@@ -53,14 +52,15 @@ Interfaces are ways to connect a sensor to a microprocessor.Raspberry Pi interfa
 
 <img src="https://www.mbtechworks.com/hardware/imgs/uart-spi-i2c.png" width="600" height="400"/>
 
-### Serial and Parallel
+### 4. Serial and Parallel
 #### What is Serial communication?
-<img src="https://circuitglobe.com/wp-content/uploads/2019/07/serial-communication.jpg"/>
+<img src="https://circuitglobe.com/wp-content/uploads/2019/07/serial-communication.jpg" />
 
 #### What is Parallel communication?
 <img src="https://circuitglobe.com/wp-content/uploads/2019/07/parallel-communication.jpg"/>
 
-<imf src="https://image.slidesharecdn.com/4lecture4serialparalleltransmission-170823060418/95/data-communication-computer-networks-serial-and-parellel-transmission-23-638.jpg?cb=1503720848" width="600" height="400"/>
+#### Difference between Series and Parallel.
+<img src="https://image.slidesharecdn.com/4lecture4serialparalleltransmission-170823060418/95/data-communication-computer-networks-serial-and-parellel-transmission-23-638.jpg?cb=1503720848" width="600" height="400"/>
 
 
 
