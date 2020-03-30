@@ -32,7 +32,10 @@ line at the pre-configured baud rate.
 4.  The receiving UART discards the start bit, parity bit, and stop bit from the data frame.
 5. The receiving UART converts the serial data back into parallel and transfers it to the data bus on the receiving end.
 
-
+#### Implementation :-Typically the path of the file is 
+> /dev/ttyxxx
+#### where xxx is the UART interface name.
+#### We can talk to the UART device by reading and writing to the file.
 
 | Advantages                                               |      Disadvantages                                             |
 |----------------------------------------------------------|----------------------------------------------------------------|
