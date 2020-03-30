@@ -32,15 +32,16 @@ An actuator is a device that converts a control signal into some kind of movemen
 ### 3. Introduction to Rpi
 <img  src="https://www.electronicwings.com/public/images/user_images/images/Raspberry%20Pi/Raspberry%20Pi%20Introduction/Raspberry%20Pi%203%20hardware.png" width="700" height="400"/>
 Raspberry Pi as a world’s most inexpensive and powerful Single Board Computer.It is
+
 * Mini Computer
 * Limited but large power for its size
-* No storage
+* No storage  
 * It is a SOC (System On Chip)
-* We can connect shields (Shields - addon functionalities)
-* Can connect multiple Pi’s together
-* Microprocessor
-* Can load a linux OS on it
-* Connect to sensors or actuators.
+* We can connect shields (Shields - addon functionalities)  
+* Can connect multiple Pi’s together  
+* Microprocessor  
+* Can load a linux OS on it  
+* Connect to sensors or actuators.  
 
 Interfaces are ways to connect a sensor to a microprocessor.Raspberry Pi interfaces are
 
