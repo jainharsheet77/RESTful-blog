@@ -14,7 +14,7 @@ As an output port, it can be used as a switch to turn ON/OFF devices.
 
 ### 2. UART
 #### What is UART?
-It is used in Serial communication.**UART** is a _Universal Asynchronous Receiver Transmitter_ used for serial communication in embedded systems. It has two lines Tx(Transmit) and Rx(Receive). It has a circuitry in micro-controller or has stand alone ICs.One of the best things about UART is that it only uses two wires to transmit data between devices.
+It is used in Serial communication.**UART** is a _Universal Asynchronous Receiver Transmitter_ used for serial communication in embedded systems. It has two lines Tx(Transmit) and Rx(Receive).One of the best things about UART is that it only uses *two wires to transmit data* between devices.
 
 <img src="https://www.circuitbasics.com/wp-content/uploads/2016/01/Introduction-to-UART-Basic-Connection-Diagram-300x147.png" width=" 200" height="200"/>
 
@@ -43,3 +43,5 @@ line at the pre-configured baud rate.
 | Has parity bit to allow for error checking.              | Doesn't support multiple master or multiple slave system       |
 |Structure of data frame can be changed and well documented.|he baud rates of each UART must be within 10% of each other    |
 
+
+##
