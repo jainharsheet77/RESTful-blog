@@ -1,5 +1,5 @@
 ## Microprocessor Interface
-<img src="https://www.mbtechworks.com/hardware/imgs/uart-spi-i2c.png"/>
+<img src="https://www.mbtechworks.com/hardware/imgs/uart-spi-i2c.png"/ width="700" height="500"/>
 
 ### 1. GPIO
 #### What is GPIO?
@@ -30,5 +30,9 @@ line at the pre-configured baud rate.
 
 
 
-
+| Advantages                                               |      Disadvantages                                             |
+| ----------------------------------------------- ---------| -------------------------------------------------------------- |
+| Use only 2 wires, no clock signal required.              | Size of data frame limited to 9 bits.                          |
+| Has parity bit to allow for error checking.              | Doesn't support multiple master or multiple slave system       |
+|Structure of data frame can be changed and well documented.|he baud rates of each UART must be within 10% of each other    |
 
