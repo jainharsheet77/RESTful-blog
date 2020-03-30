@@ -56,8 +56,7 @@ Four main lines:-
 4. SS/CS (Slave Select/Chip Select) – Line for the master to select which slave to send data to.
 
 #### Multiple slaves
-1. Master with separate Slave Select:
-<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/76f6e0eb9cedc83d295851ac4427e13c/Introduction-to-SPI-Multiple-Slave-Configuration-Separate-Slave-Select-768x787.png" width="400" height="400"/>
-2. Master with Daisy-Chained:
-<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/7d211cac4f6a8f7666dff31a5323dfaf/Introduction-to-SPI-Multiple-Slave-Configuration-Daisy-Chained-768x781.png" width="400" height="400"/>
+|Master with separate Slave Select|Master with Daisy-Chained:|
+|---------------------------------|---------------------------|
+|<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/76f6e0eb9cedc83d295851ac4427e13c/Introduction-to-SPI-Multiple-Slave-Configuration-Separate-Slave-Select-768x787.png" width="400" height="400"/>|<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/7d211cac4f6a8f7666dff31a5323dfaf/Introduction-to-SPI-Multiple-Slave-Configuration-Daisy-Chained-768x781.png" width="400" height="400"/>|
 
