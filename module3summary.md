@@ -24,9 +24,23 @@ An actuator is a device that converts a control signal into some kind of movemen
 
 ### Mictroprocessor and Microcontroller
 
-<img src="https://lh3.googleusercontent.com/proxy/rI49srLi-VMYqmw36qHbOEk7uKy0UDi41Q057mv6BOLhcJDttqGY4q8a7YzE6GIJsp8dCt38MXebNhIz36mTnG4iidwe3WHtnWbWLz3hCgcl0aEkUdXeo3lGgfSyOzNkXcrb7QnygIkduLCT80e4zFpJPnLQyqn_eYUP0bRx" width="600" height="400"  />
+<img src="https://lh3.googleusercontent.com/proxy/rI49srLi-VMYqmw36qHbOEk7uKy0UDi41Q057mv6BOLhcJDttqGY4q8a7YzE6GIJsp8dCt38MXebNhIz36mTnG4iidwe3WHtnWbWLz3hCgcl0aEkUdXeo3lGgfSyOzNkXcrb7QnygIkduLCT80e4zFpJPnLQyqn_eYUP0bRx" width="600" height="600"  />
 
-<img src="https://aast.roben.me/wp-content/uploads/2014/10/comp.jpg" width="600" height="400"/>
+<img src="https://aast.roben.me/wp-content/uploads/2014/10/comp.jpg" width="600" height="600"/>
+
+
+### Introduction to Rpi
+Raspberry Pi as a world’s most inexpensive and powerful Single Board Computer.It is:-
+
+* Mini Computer
+* Limited but large power for its size
+* No storage
+* It is a SOC (System On Chip)
+* We can connect shields (Shields - addon functionalities)
+* Can connect multiple Pi’s together
+* Microprocessor
+* Can load a linux OS on it
+* Connect to sensors or actuators
 
 ### Serial and Parallel
 
