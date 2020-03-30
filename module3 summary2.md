@@ -72,3 +72,10 @@ Four main lines:-
 |No complicated slave addressing system like I2C.|No acknowledgement that the data has been successfully received (I2C has this).|
 |Higher data transfer rate than I2C (almost twice as fast).|No form of error checking like the parity bit in UART.|
 |Separate MISO and MOSI lines, so data can be sent and received at the same time.|Only allows for a single master.|
+
+
+#### Implementation :-Typically the path of the file is 
+> /dev/spidevB.C where B is the SPI interface
+number and C is the channel number.
+#### where xxx is the UART interface name.
+#### We can talk to the UART device by reading and writing to the file.
