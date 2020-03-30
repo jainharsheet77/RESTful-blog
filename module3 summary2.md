@@ -1,5 +1,5 @@
 ## Microprocessor Interface
-<img src="https://www.mbtechworks.com/hardware/imgs/uart-spi-i2c.png" width="700" height="500"/>
+<img src="https://www.mbtechworks.com/hardware/imgs/uart-spi-i2c.png" width="300" height="300"/>
 
 ### 1. GPIO
 #### What is GPIO?
@@ -79,3 +79,38 @@ Four main lines:-
 number and C is the channel number.
 #### where xxx is the UART interface name.
 #### We can talk to the UART device by reading and writing to the file.
+
+### 4. I2C
+#### What is I2C?
+It stands for _Inter-Integrated Circuit_(I2C).I2C combines the best features of SPI and UARTs. With I2C, you can connect multiple slaves to a single master (like SPI) and you can have multiple masters controlling single, or multiple slaves.
+
+It uses two lines:-
+1. SDA (Serial Data) – The line for the master and slave to send and receive data.
+2. SCL (Serial Clock) – The line that carries the clock signal.
+
+* In I2C data is transferred in messages.
+* Messages is broken up into data frame. 
+* Each messages has an address frame which contains address of the slave.
+* We can transfer one or more data frames in one message.
+* The message also includes start and stop conditions, read/write bits, and ACK/NACK bits between each data frame.
+<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/c841b7465d4f57e07b041b64b30b2e24/Introduction-to-I2C-Message-Frame-and-Bit-2-1024x258.png" width="600" height="300"/>
+
+#### 5 main components
+1. **Start condition** : SDA line switches from high to low logic before SCL line switches from high to low.
+2. **Stop condition** : SDA line switches from low to high logic after the SCL line switches from low to high.
+3. **Address Frame** : 7 or 10 bit sequence unique to each slave to identify the slave.
+4. **Read/Write Bit** : A single bit specifying if master is sending data to the slave (low logic) or requesting data from it (high logic).
+5. **ACK/NACK Bit**: For acknowledgement purposes, if an address frame or data frame was successfully received, an ACK bit is returned to the sender from the receiving device.
+
+#### Steps
+1. The master sends the start condition to every connected slave by switching the SDA line from a high voltage level to a low voltage level before switching the SCL line from high to low.
+2. The master sends each slave the 7 or 10 bit address of the slave it wants to communicate with, along with the read/write bit.
+3. Each slave compares the address sent from the master to its own address. If the address matches, the slave returns an ACK bit by pulling the SDA line low for one bit. If the address from the master does not match the slave’s own address, the slave leaves the SDA line high.
+4. The master sends or receives the data frame.
+5. After each data frame has been transferred, the receiving device returns another ACK bit to the sender to acknowledge successful receipt of the frame.
+6. To stop the data transmission, the master sends a stop condition to the slave by switching SCL high before switching SDA high.
+
+|Single Master with Multiple Slaves |Multiple Masters with Multiple Slaves|
+|-----------------------------------|--------------------------------------|
+|<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/6eddbd902d74cfc37ee674a4af5001ca/Introduction-to-I2C-Single-Master-Multiple-Slaves-2-768x1013.png" width="300" height="400"/>|<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/b7ab052f51592278f2aeb82ac74a2d84/Introduction-to-I2C-Multiple-Masters-Multiple-Slaves-2-625x1024.png" width="300" height="400"/>|
+
