@@ -3,7 +3,7 @@
 ### 1. Sensors and Actuators
 The main difference between sensor and actuator is that a sensor is used to monitor the changes in the environment while an actuator is used to control the environmental or physical changes.
 
-<img src="https://pediaa.com/wp-content/uploads/2019/02/Difference-Between-Sensor-and-Actuator-Comparison-Summary.jpg" height="500" width="600" />`
+<img src="https://pediaa.com/wp-content/uploads/2019/02/Difference-Between-Sensor-and-Actuator-Comparison-Summary.jpg" height="500" width="600" />
 
 #### What is a sensor?
 A sensor is a device that can detect the changes in a physical environment. It can convert physical parameters such as temperature, heat, motion, humidity, pressure, etc. into electrical signals. We can transform this signal into a human readable display and send them through a network for further processing. There are mainly two types of sensors as active sensors and passive sensors. Active sensors require power supply while passive sensors do not require a power supply.
@@ -30,8 +30,8 @@ An actuator is a device that converts a control signal into some kind of movemen
 
 
 ### Introduction to Rpi
-<img src="https://www.electronicwings.com/public/images/user_images/images/Raspberry%20Pi/Raspberry%20Pi%20Introduction/Raspberry%20Pi%203%20hardware.png" width="400" height="400"/>
-Raspberry Pi as a world’s most inexpensive and powerful Single Board Computer.It is:-
+<img  src="https://www.electronicwings.com/public/images/user_images/images/Raspberry%20Pi/Raspberry%20Pi%20Introduction/Raspberry%20Pi%203%20hardware.png" width="700" height="400"/>
+Raspberry Pi as a world’s most inexpensive and powerful Single Board Computer.It is
 
 * Mini Computer
 * Limited but large power for its size
@@ -41,7 +41,26 @@ Raspberry Pi as a world’s most inexpensive and powerful Single Board Computer.
 * Can connect multiple Pi’s together
 * Microprocessor
 * Can load a linux OS on it
-* Connect to sensors or actuators
+* Connect to sensors or actuators.
+
+Interfaces are ways to connect a sensor to a microprocessor.Raspberry Pi interfaces are-
+
+* GPIO
+* UART
+* SPI
+* I2C
+* PWM
+
+<img src="https://www.mbtechworks.com/hardware/imgs/uart-spi-i2c.png" width="600" height="400"/>
 
 ### Serial and Parallel
+#### What is Serial communication?
+<img src="https://circuitglobe.com/wp-content/uploads/2019/07/serial-communication.jpg"/>
+
+#### What is Parallel communication?
+<img src="https://circuitglobe.com/wp-content/uploads/2019/07/parallel-communication.jpg"/>
+
+<imf src="https://image.slidesharecdn.com/4lecture4serialparalleltransmission-170823060418/95/data-communication-computer-networks-serial-and-parellel-transmission-23-638.jpg?cb=1503720848" width="600" height="400"/>
+
+
 
