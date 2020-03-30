@@ -6,7 +6,7 @@ The main difference between sensor and actuator is that a sensor is used to moni
 ![sensors vs anctuators](https://pediaa.com/wp-content/uploads/2019/02/Difference-Between-Sensor-and-Actuator-Comparison-Summary.jpg)
 #### What is a sensor?
 A sensor is a device that can detect the changes in a physical environment. It can convert physical parameters such as temperature, heat, motion, humidity, pressure, etc. into electrical signals. We can transform this signal into a human readable display and send them through a network for further processing. There are mainly two types of sensors as active sensors and passive sensors. Active sensors require power supply while passive sensors do not require a power supply.
-![Whats is a sensor](https://i0.wp.com/iot4beginners.com/wp-content/uploads/2018/12/different-types-of-sensor.png?fit=920%2C488&ssl=1)
+![Whats is a sensor](https://i0.wp.com/iot4beginners.com/wp-content/uploads/2018/12/different-types-of-sensor.png?fit=920%2C488&ssl=1 =100*100)
 #### What is an actuator?
 An actuator is a device that converts a control signal into some kind of movement. It obtains a control signal in the form of electric voltage, current, hydraulic fluid, pneumatic or hydraulic pressure. The actuator converts the received control signal into mechanical motion.
 ![what are actuators ](https://i.ytimg.com/vi/penLo7CNeQE/maxresdefault.jpg)
