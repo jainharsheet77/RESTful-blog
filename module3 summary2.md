@@ -46,6 +46,9 @@ line at the pre-configured baud rate.
 
 ### 3. SPI
 #### What is SPI?
+
+<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/7e8d76f6ce916b2db708857e1264d4bd/Introduction-to-SPI-Master-and-Slave.png" width="300" height="300" />
+
 It is another serial interface for communication.It stands for _Serial Peripheral Interface_.SPI is most commonly used for interfacing of SD card modules, RFID card reader modules, and 2.4 GHz wireless transmitter/receivers with micro-controllers.
 The relationship between two communication devices is master & slave. Master is controlling device(usually a micro-controller) and slave(usually a sensor, display, or memory chip) is the which follows instructions of master device
 SPI is immune to interruption while communication.
@@ -81,6 +84,7 @@ Four main lines:-
 
 ### 4. I2C
 #### What is I2C?
+<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/4961ecd861bfcc1fe8888be4370ca2bb/Introduction-to-I2C-Single-Master-Single-Slave.png" width="300" height="300"/>
 It stands for _Inter-Integrated Circuit_(I2C).I2C combines the best features of SPI and UARTs. With I2C, you can connect multiple slaves to a single master (like SPI) and you can have multiple masters controlling single, or multiple slaves.
 
 It uses two lines:-
