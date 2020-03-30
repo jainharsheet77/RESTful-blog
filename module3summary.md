@@ -30,6 +30,7 @@ An actuator is a device that converts a control signal into some kind of movemen
 
 
 ### Introduction to Rpi
+<img src="https://www.electronicwings.com/public/images/user_images/images/Raspberry%20Pi/Raspberry%20Pi%20Introduction/Raspberry%20Pi%203%20hardware.png" width="400" height="400"/>
 Raspberry Pi as a world’s most inexpensive and powerful Single Board Computer.It is:-
 
 * Mini Computer
