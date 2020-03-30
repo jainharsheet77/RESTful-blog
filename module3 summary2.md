@@ -75,10 +75,9 @@ Four main lines:-
 
 
 #### Implementation :-Typically the path of the file is 
-> /dev/spidevB.C where B is the SPI interface
-number and C is the channel number.
-#### where xxx is the UART interface name.
-#### We can talk to the UART device by reading and writing to the file.
+> /dev/spidevB.C 
+#### where B is the SPI interface number and C is the channel number.
+#### We can talk to the SPI device by reading and writing to the file.
 
 ### 4. I2C
 #### What is I2C?
@@ -93,7 +92,7 @@ It uses two lines:-
 * Each messages has an address frame which contains address of the slave.
 * We can transfer one or more data frames in one message.
 * The message also includes start and stop conditions, read/write bits, and ACK/NACK bits between each data frame.
-<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/c841b7465d4f57e07b041b64b30b2e24/Introduction-to-I2C-Message-Frame-and-Bit-2-1024x258.png" width="600" height="300"/>
+<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/c841b7465d4f57e07b041b64b30b2e24/Introduction-to-I2C-Message-Frame-and-Bit-2-1024x258.png" width="500" height="250"/>
 
 #### 5 main components
 1. **Start condition** : SDA line switches from high to low logic before SCL line switches from high to low.
@@ -114,3 +113,13 @@ It uses two lines:-
 |-----------------------------------|--------------------------------------|
 |<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/6eddbd902d74cfc37ee674a4af5001ca/Introduction-to-I2C-Single-Master-Multiple-Slaves-2-768x1013.png" width="300" height="400"/>|<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/b7ab052f51592278f2aeb82ac74a2d84/Introduction-to-I2C-Multiple-Masters-Multiple-Slaves-2-625x1024.png" width="300" height="400"/>|
 
+|Advantages                          |Disadvantages                              |
+|------------------------------------|-------------------------------------------|
+|Uses 2 wires and support multi-master and multi slave system.|Slower data transfer rate than SPI|
+|Acknowledgement of data been sent through ACK/NACK.|The size of the data frame is limited to 8 bits.|
+|Hardware less complicated and widely used.|More complicated hardware needed to implement than SPI.|
+
+##### Implementation :-Typically the path of the file is
+> /dev/i2c-x   
+##### where x is the I2C interface number.
+##### We can talk to the I2C device by reading and writing to the file.
