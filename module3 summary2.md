@@ -48,4 +48,16 @@ line at the pre-configured baud rate.
 #### What is SPI?
 It is another serial interface for communication.It stands for _Serial Peripheral Interface_.SPI is most commonly used for interfacing of SD card modules, RFID card reader modules, and 2.4 GHz wireless transmitter/receivers with micro-controllers.
 The relationship between two communication devices is master & slave. Master is controlling device(usually a micro-controller) and slave(usually a sensor, display, or memory chip) is the which follows instructions of master device
-SPI is immune to interruption while communication
+SPI is immune to interruption while communication.
+Four main lines:-
+1. MOSI (Master Output/Slave Input) – Line for the master to send data to the slave.
+2. MISO (Master Input/Slave Output) – Line for the slave to send data to the master.
+3. SCLK (Clock) – Line for the clock signal.
+4. SS/CS (Slave Select/Chip Select) – Line for the master to select which slave to send data to.
+
+#### Multiple slaves
+1. Master with separate Slave Select:
+<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/76f6e0eb9cedc83d295851ac4427e13c/Introduction-to-SPI-Multiple-Slave-Configuration-Separate-Slave-Select-768x787.png" width="400" height="400"/>
+2. Master with Daisy-Chained:
+<img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module3/uploads/7d211cac4f6a8f7666dff31a5323dfaf/Introduction-to-SPI-Multiple-Slave-Configuration-Daisy-Chained-768x781.png" width="400" height="400"/>
+
