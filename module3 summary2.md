@@ -1,5 +1,5 @@
 ## Microprocessor Interface
-<img src="https://www.mbtechworks.com/hardware/imgs/uart-spi-i2c.png"/ width="700" height="500"/>
+<img src="https://www.mbtechworks.com/hardware/imgs/uart-spi-i2c.png" width="700" height="500"/>
 
 ### 1. GPIO
 #### What is GPIO?
