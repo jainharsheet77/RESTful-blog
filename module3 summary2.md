@@ -44,4 +44,8 @@ line at the pre-configured baud rate.
 |Structure of data frame can be changed and well documented.|he baud rates of each UART must be within 10% of each other    |
 
 
-##
+### 3. SPI
+#### What is SPI?
+It is another serial interface for communication.It stands for _Serial Peripheral Interface_.SPI is most commonly used for interfacing of SD card modules, RFID card reader modules, and 2.4 GHz wireless transmitter/receivers with micro-controllers.
+The relationship between two communication devices is master & slave. Master is controlling device(usually a micro-controller) and slave(usually a sensor, display, or memory chip) is the which follows instructions of master device
+SPI is immune to interruption while communication
