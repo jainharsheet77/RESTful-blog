@@ -57,8 +57,43 @@
             <li>Do not connect a motor directly , use a transistor to drive it .</li>
           </ul>
         </td>
-  </tr>
-      
+  </tr>     
 </table>
                       
-                            
+## Guidelines for using interfaces(UART,I2C,SPI)
+<table>
+    <tr>
+        <th>UART</th>
+        <th>I2C</th>
+        <th>SPI</th>
+    </tr>
+    <tr>
+        <td>
+            <ul>
+                <li>Connect Rx pin of device1 to Tx pin of device2 ,similarly Tx pin of device1 to Rx pin of device2.</li>
+                <li>If the device1 works on 5v and device2 works at 3.3v then use the level shifting mechanism(voltage divider)</li>
+                <li>Genrally UART is used to communicate with board through USB to TTL connection . USB to TTL connection does not require a protection circuit .</li>
+                <li>Whereas Senor interfacing using UART might require a protection circuit.</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>while using I2c interfaces with sensors SDA and SDL lines must be protected.</li>
+                <li>Protection of these lines is done by using pullup registers on both lines.</li>
+                <li>If you use the inbuilt pullup registers in the board you wont need an external circuit.</li>
+                <li>If you are using bread-board to connect your sensor , use the pullup resistor .</li>
+                <li>Generally , 2.2kohm <= 4K ohm resistors are used.</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>Generally ,Spi in development boards is in Push-pull mode.</li>
+                <li>Push-pull mode does not require any protection circuit.</li>
+                <li>On Spi interface if you are using more than one slaves it is possible that the device2 can "hear" and "respond" to the master's communication with device1- which is an disturbance .</li>
+<li>To overcome this problem , we use a protection circuit with pullup resistors on each the Slave Select line(CS).</li>
+                <li>Resistors value can be between 1kOhm ~10kOhm . Generally 4.7kOhm resistor is used.</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+    
