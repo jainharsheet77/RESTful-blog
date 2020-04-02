@@ -23,6 +23,7 @@ The server prepares the resource and returns it in an HTTP response.
 
 
 HTTP Request looks like this.
+
 <img src="https://gitlab.iotiot.in/newbies/iot-internship-feb-20/module4/uploads/0753dad46945e7acd75388f8f7e7c02d/req1-07.png"/>
 
 
