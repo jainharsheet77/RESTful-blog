@@ -18,6 +18,8 @@ The HTTP methods define the few common ways that the client can act upon the res
 * **PUT/PATCH** -Update the resource on the server.
 * **DELETE**-Delete the resource from the server.
 
+<img src="https://miro.medium.com/max/1400/1*o1NCjMU1ewGnP9aGIbw02g.png"/>
+
 ### Step 2:-
 The server prepares the resource and returns it in an HTTP response.
 
